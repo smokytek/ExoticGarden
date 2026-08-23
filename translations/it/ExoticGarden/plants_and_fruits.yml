@@ -1,0 +1,140 @@
+name: ExoticGarden
+translations:
+  RASPBERRY_BUSH:
+    name: '&dGermoglio di Lamponi'
+  BLACK_PEPPER_BUSH:
+    name: '&8Piantina di Pepe Nero'
+  PLUM_SAPLING:
+    name: '&5Arboscello di Prugna'
+  ONION_BUSH:
+    name: '&cGermoglio di Cipolla'
+  CORN_BUSH:
+    name: '&6Germoglio di Mais'
+  RED_BELL_PEPPER:
+    name: '&cPeperone Rosso'
+  ORANGE_SAPLING:
+    name: '&6Arboscello di Arancia'
+  CILANTRO_BUSH:
+    name: '&aPiantina di Coriandolo'
+  POMEGRANATE:
+    name: '&4Melagrana'
+  SWEET_POTATO:
+    name: '&6Patata Dolce'
+  BLACKBERRY_BUSH:
+    name: '&8Germoglio di Mora'
+  CHERRY_SAPLING:
+    name: '&cArboscello di Ciliegio'
+  OAK_APPLE_SAPLING:
+    name: '&cArboscello di Melo Selvatico'
+  DRAGON_FRUIT:
+    name: '&dFrutto del Drago'
+  BLACKBERRY:
+    name: '&8Mora'
+  BLACK_PEPPER:
+    name: '&8Pepe Nero'
+  LEMON:
+    name: '&eLimone'
+  ELDERBERRY_BUSH:
+    name: '&cGermoglio di Sambuco'
+  CILANTRO:
+    name: '&aCoriandolo'
+  CABBAGE_BUSH:
+    name: '&2Piantina di Cavolo'
+  GRAPE:
+    name: '&cUva'
+  COCONUT_SAPLING:
+    name: '&6Arboscello di Cocco'
+  CURRY_LEAF_BUSH:
+    name: '&2Piantina di Foglia di Curry'
+  OAK_APPLE:
+    name: '&cMela Selvatica'
+  RASPBERRY:
+    name: '&dLampone'
+  CRANBERRY_BUSH:
+    name: '&cGermoglio di Mirtillo Rosso'
+  BLUEBERRY:
+    name: '&9Mirtillo'
+  PLUM:
+    name: '&5Prugna'
+  CORN:
+    name: '&6Mais'
+  CURRY_LEAF:
+    name: '&2Foglia di Curry'
+  PEAR_SAPLING:
+    name: '&aArboscello di Pera'
+  CRANBERRY:
+    name: '&cMirtillo Rosso'
+  LETTUCE:
+    name: '&2Lattuga'
+  PEAR:
+    name: '&aPera'
+  BLUEBERRY_BUSH:
+    name: '&9Germoglio di Mirtillo'
+  GARLIC:
+    name: Aglio
+  PEACH_SAPLING:
+    name: '&5Arboscello di Pesca'
+  GRASS_SEEDS:
+    name: Semi di Erba
+    lore:
+    - ''
+    - '&7&oPossono essere'
+    - '&7&opiantati su blocchi di terra'
+  ONION:
+    name: '&cCipolla'
+  PEACH:
+    name: '&5Pesca'
+  TOMATO_BUSH:
+    name: '&4Piantina di Pomodoro'
+  COWBERRY:
+    name: '&cMirtillo Rosso'
+  DRAGON_FRUIT_SAPLING:
+    name: '&dArboscello di Frutto del Drago'
+  STRAWBERRY:
+    name: '&4Fragola'
+  TOMATO:
+    name: '&4Pomodoro'
+  ORANGE:
+    name: '&6Arancia'
+  SWEET_POTATO_BUSH:
+    name: '&6Piantina di Patata Dolce'
+  POMEGRANATE_SAPLING:
+    name: '&4Arboscello di Melograno'
+  LETTUCE_BUSH:
+    name: '&2Piantina di Lattuga'
+  ELDERBERRY:
+    name: '&cSambuco'
+  LIME_SAPLING:
+    name: '&aArboscello di Lime'
+  TEA_LEAF_BUSH:
+    name: '&aPianta di Foglia di Tè'
+  CABBAGE:
+    name: '&2Cavolo'
+  MUSTARD_SEED_BUSH:
+    name: '&ePianta di Semi di Senape'
+  COCONUT:
+    name: '&6Cocco'
+  CHERRY:
+    name: '&cCiliegia'
+  COWBERRY_BUSH:
+    name: '&cGermoglio di Mirtillo Rosso'
+  LEMON_SAPLING:
+    name: '&eArboscello di Limone'
+  GARLIC_BUSH:
+    name: '&cPianta di Aglio'
+  PINEAPPLE_BUSH:
+    name: '&6Pianta di Ananas'
+  LIME:
+    name: '&aLime'
+  STRAWBERRY_BUSH:
+    name: '&4Germoglio di Fragole'
+  TEA_LEAF:
+    name: '&aFoglia di Tè'
+  RED_BELL_PEPPER_BUSH:
+    name: '&cPianta di Peperone Rosso'
+  PINEAPPLE:
+    name: '&6Ananas'
+  GRAPE_BUSH:
+    name: '&cGermoglio di Uva'
+  MUSTARD_SEED:
+    name: '&eSemi di Senape'

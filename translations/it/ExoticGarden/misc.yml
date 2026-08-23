@@ -1,0 +1,33 @@
+name: ExoticGarden
+translations:
+  KITCHEN:
+    name: '&eCucina'
+    lore:
+    - ''
+    - '&a&oPuoi preparare diverse prelibatezze qui!'
+    - '&a&oIl prodotto finale viene depositato nello slot centrale'
+  YEAST:
+    name: Lievito
+  BROWN_SUGAR:
+    name: Zucchero di canna
+  VEGETABLE_OIL:
+    name: Olio di semi
+  MOLASSES:
+    name: '&8Melassa'
+  COUNTRY_GRAVY:
+    name: Salsa country
+  ICE_CUBE:
+    name: '&bCubetti di ghiaccio'
+  MAYO:
+    name: Maionese
+  CROOK:
+    name: Gancio
+    lore:
+    - ''
+    - '&7+ &b25% &7Tasso di caduta degli arboscelli'
+  BBQ_SAUCE:
+    name: '&cSalsa BBQ'
+  CORNMEAL:
+    name: Farina di mais
+  MUSTARD:
+    name: '&eSenape'

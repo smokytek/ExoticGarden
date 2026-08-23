@@ -1,0 +1,135 @@
+name: ExoticGarden
+translations:
+  ENDER_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7End'
+  SILVER_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Argento'
+  REDSTONE_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Pietrarossa'
+  GOLD_PLANT:
+    name: Pianta d'Oro
+  GLOWSTONE_PLANT:
+    name: Pianta di Glowstone
+  DIRT_PLANT:
+    name: Pianta di Terra
+  ALUMINUM_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Alluminio'
+  NETHERITE_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Netherite'
+  LEAD_PLANT:
+    name: Pianta di Piombo
+  SLIME_PLANT:
+    name: Pianta di Slime
+  GOLD_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Oro'
+  COPPER_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Rame'
+  GLOWSTONE_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7PietraLuce'
+  QUARTZ_PLANT:
+    name: Pianta di Quarzo
+  LAPIS_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Lapis'
+  COPPER_PLANT:
+    name: Pianta di Rame
+  LAPIS_PLANT:
+    name: Pianta di Lapis
+  OBSIDIAN_PLANT:
+    name: Pianta di Obsidian
+  EMERALD_PLANT:
+    name: Pianta di Emeraldo
+  IRON_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Ferro'
+  COAL_PLANT:
+    name: Pianta di Carbone
+  DIAMOND_PLANT:
+    name: Pianta di Diamante
+  SILVER_PLANT:
+    name: Pianta di Argento
+  QUARTZ_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Quarzo'
+  DIAMOND_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Diamante'
+  DIRT_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Terra'
+  LEAD_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Piombo'
+  TIN_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Stagno'
+  COAL_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Carbone'
+  IRON_PLANT:
+    name: Pianta di Ferro
+  TIN_PLANT:
+    name: Pianta di Stagno
+  NETHERITE_PLANT:
+    name: Pianta di Netherite
+  SLIME_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Slime'
+  REDSTONE_PLANT:
+    name: Pianta di Redstone
+  EMERALD_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Smeraldo'
+  ALUMINUM_PLANT:
+    name: Pianta di Alluminio
+  ENDER_PLANT:
+    name: Pianta di Ender
+  OBSIDIAN_ESSENCE:
+    name: Essenza Magica
+    lore:
+    - ''
+    - '&7Ossidiana'

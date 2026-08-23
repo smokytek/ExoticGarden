@@ -1,0 +1,212 @@
+name: ExoticGarden
+translations:
+  PEAR_JUICE:
+    name: '&aSucco di Pera'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  ORANGE_JUICE:
+    name: '&6Succo di Arancia'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  CHERRY_ICED_TEA:
+    name: '&cSucco di Ciliegia Ghiacciato'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  ELDERBERRY_SMOOTHIE:
+    name: '&cFrullato di Sambuco'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  LEMONADE:
+    name: '&eLimonata'
+    lore:
+    - ''
+    - '&7&o+&b&o4.0 &7&oFame'
+  LEMON_ICED_TEA:
+    name: '&eTè al Limone Ghiacciato'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  ELDERBERRY_JUICE:
+    name: '&cSucco di Sambuco'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  PINEAPPLE_JUICE:
+    name: '&6Succo di Ananas'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  PLUM_JUICE:
+    name: '&5Succo di Prugna'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  BLUEBERRY_SMOOTHIE:
+    name: '&9Frullato di Mirtilli'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  STRAWBERRY_ICED_TEA:
+    name: '&4Tè alla Fragola Ghiacciato'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  OAK_APPLE_JUICE:
+    name: '&cSucco di Mela'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  CRANBERRY_JUICE:
+    name: '&cSucco di Ossicocco'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  GRAPE_SMOOTHIE:
+    name: '&cFrullato di Uva'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  TOMATO_JUICE:
+    name: '&4Succo di Pomodoro'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  POMEGRANATE_JUICE:
+    name: '&4Succo di Pompelmo'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  CHERRY_JUICE:
+    name: '&cSucco di Ciliegia'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  PINACOLADA:
+    name: '&6Pinacolada'
+    lore:
+    - ''
+    - '&7&o+&b&o7.0 &7&oFame'
+  PINEAPPLE_SMOOTHIE:
+    name: '&6Frullato di Ananas'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  HOT_CHOCOLATE:
+    name: '&6Cioccolata Calda'
+    lore:
+    - ''
+    - '&7&o+&b&o4.0 &7&oFame'
+  PEACH_ICED_TEA:
+    name: '&dTé alla Pesca Ghiacciato'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  WINE:
+    name: '&cVino'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  RASPBERRY_SMOOTHIE:
+    name: '&dFrullato di Lampone'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  COWBERRY_JUICE:
+    name: '&cSucco di Mirtillo Rosso'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  BLUEBERRY_JUICE:
+    name: '&9Succo di Mirtilli'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  LIME_JUICE:
+    name: '&aSucco di Lime'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  BLACKBERRY_SMOOTHIE:
+    name: '&8Frullato di More'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  LEMON_JUICE:
+    name: '&eSucco al Limone'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  BLACKBERRY_JUICE:
+    name: '&8Succo di More'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  RASPBERRY_JUICE:
+    name: '&dSucco di Lamponi'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  LIME_SMOOTHIE:
+    name: '&aFrullato al Lime'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  COCONUT_MILK:
+    name: '&6Latte di Cocco'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  CRANBERRY_SMOOTHIE:
+    name: '&cFrullato di Ossicocco'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  COWBERRY_SMOOTHIE:
+    name: '&cFrullato di Mirtillo Rosso'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  THAI_TEA:
+    name: '&6Tè Thai'
+    lore:
+    - ''
+    - '&7&o+&b&o7.0 &7&oFame'
+  RASPBERRY_ICED_TEA:
+    name: '&dTè alla Fragola Ghiacciato'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  STRAWBERRY_JUICE:
+    name: '&4Succo di Fragola'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  SWEETENED_TEA:
+    name: '&aTè Addolcito'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  GRAPE_JUICE:
+    name: '&cSucco di Uva'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  PEACH_JUICE:
+    name: '&5Succo di Pesca'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
+  STRAWBERRY_SMOOTHIE:
+    name: '&4Frullato di Fragola'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  DRAGON_FRUIT_JUICE:
+    name: '&dSucco di Frutta del Drago'
+    lore:
+    - ''
+    - '&7&o+&b&o3.0 &7&oFame'
