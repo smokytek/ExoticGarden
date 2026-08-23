@@ -14,13 +14,15 @@ compatibili con il progetto originale.
 3. Rimuovi l'eventuale versione originale di ExoticGarden per evitare doppioni.
 4. Riavvia il server.
 
-La traduzione è incorporata nel file `.jar`: **SlimefunTranslation non è
-necessario**.
+La traduzione non richiede **SlimefunTranslation**. Al primo avvio vengono
+creati file YAML modificabili in
+`plugins/ExoticGarden/translations/it/ExoticGarden/`. Modifica i campi `name`
+e `lore`, poi riavvia il server per applicare i cambiamenti.
 
 ## Modifiche rispetto al progetto originale
 
 - aggiunta la traduzione italiana completa;
-- applicazione autonoma delle traduzioni all'avvio;
+- traduzioni modificabili tramite file YAML nella cartella del plugin;
 - aggiunte istruzioni d'installazione in italiano;
 - nessuna modifica agli ID Slimefun o alle ricette.
 

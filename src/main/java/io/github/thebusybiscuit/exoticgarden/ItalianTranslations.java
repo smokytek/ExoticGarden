@@ -8,6 +8,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.annotation.Nonnull;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -19,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 
-/** Applies the bundled Italian item names without requiring another plugin. */
+/** Applies Italian item names from editable YAML files in the plugin data folder. */
 final class ItalianTranslations {
 
     private static final List<String> FILES = Arrays.asList(
@@ -43,16 +45,17 @@ final class ItalianTranslations {
             }
         }
 
-        plugin.getLogger().info("Traduzione italiana incorporata: " + applied + " oggetti tradotti.");
+        plugin.getLogger().info("Traduzione italiana configurabile: " + applied + " oggetti tradotti.");
     }
 
     private static void load(JavaPlugin plugin, String file, Map<String, Translation> translations) {
-        String path = "/translations/it/ExoticGarden/" + file;
-        try (InputStream stream = ItalianTranslations.class.getResourceAsStream(path)) {
-            if (stream == null) {
-                plugin.getLogger().warning("File di traduzione mancante: " + path);
-                return;
-            }
+        String resourcePath = "translations/it/ExoticGarden/" + file;
+        File externalFile = new File(plugin.getDataFolder(), resourcePath);
+        if (!externalFile.exists()) {
+            plugin.saveResource(resourcePath, false);
+        }
+
+        try (InputStream stream = new FileInputStream(externalFile)) {
 
             try (BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8))) {
                 String id = null;
@@ -72,7 +75,7 @@ final class ItalianTranslations {
                 }
             }
         } catch (IOException ex) {
-            plugin.getLogger().log(Level.SEVERE, "Impossibile leggere la traduzione " + file, ex);
+            plugin.getLogger().log(Level.SEVERE, "Impossibile leggere la traduzione configurabile " + externalFile, ex);
         }
     }
 
