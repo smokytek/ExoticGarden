@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.thebusybiscuit</groupId>
     <artifactId>ExoticGarden</artifactId>
-    <version>UNOFFICIAL</version>
+    <version>ITALIANO-1.0.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -43,6 +43,7 @@
                 <filtering>true</filtering>
                 <includes>
                     <include>*</include>
+                    <include>translations/**/*.yml</include>
                 </includes>
             </resource>
 

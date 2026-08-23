@@ -7,21 +7,20 @@ frutti, ingredienti, utensili, cibi e bevande. Gli ID interni degli oggetti non
 sono stati modificati, così mondi, ricette e dati già esistenti rimangono
 compatibili con il progetto originale.
 
-## Installazione della traduzione
+## Installazione
 
-1. Installa ExoticGarden e SlimefunTranslation sul server.
-2. Copia la cartella `translations/it/ExoticGarden` nella cartella delle
-   traduzioni di SlimefunTranslation.
-3. Imposta l'italiano (`it`) come lingua del server o del giocatore, secondo la
-   configurazione di SlimefunTranslation.
+1. Installa Slimefun sul server.
+2. Inserisci il file `.jar` di ExoticGarden Italiano nella cartella `plugins`.
+3. Rimuovi l'eventuale versione originale di ExoticGarden per evitare doppioni.
 4. Riavvia il server.
 
-La traduzione è mantenuta separata dal codice Java per facilitare gli
-aggiornamenti futuri del progetto originale.
+La traduzione è incorporata nel file `.jar`: **SlimefunTranslation non è
+necessario**.
 
 ## Modifiche rispetto al progetto originale
 
 - aggiunta la traduzione italiana completa;
+- applicazione autonoma delle traduzioni all'avvio;
 - aggiunte istruzioni d'installazione in italiano;
 - nessuna modifica agli ID Slimefun o alle ricette.
 

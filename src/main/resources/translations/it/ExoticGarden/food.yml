@@ -1,0 +1,544 @@
+name: ExoticGarden
+translations:
+  POTATO_SALAD:
+    name: Insalata di Patate
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  BACON:
+    name: Bacon
+    lore:
+    - ''
+    - '&7&o+&b&o1.5 &7&oFame'
+  PANCAKES:
+    name: Pancake
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  BLACKBERRY_PIE:
+    name: '&8Torta di More'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CREAM_COOKIE:
+    name: Biscotto alla Crema
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  EGG_SALAD:
+    name: Insalata all'Uovo
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  POPCORN:
+    name: Popcorn
+    lore:
+    - ''
+    - '&7&o+&b&o4.0 &7&oFame'
+  LAMINGTON:
+    name: Dolce al cocco e cioccolato
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  BLACKBERRY_COBBLER:
+    name: '&8Torta di More'
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  RASPBERRY_PIE:
+    name: '&dCrostata di Lamponi'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  LEAFY_FISH_SANDWICH:
+    name: Panino con Pesce e Lattuga
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  LEAFY_CHICKEN_SANDWICH:
+    name: Panino con Pollo e Lattuga
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  GARLIC_CHEESE_BREAD:
+    name: Bruschetta al Formaggio e Aglio
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CHERRY_PIE:
+    name: '&cCrostata di Ciliegie'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  SWEET_BERRY_PANCAKES:
+    name: Pancake delle Bacche Dolci
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  LASAGNA:
+    name: Lasagna
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  SHEPARDS_PIE:
+    name: Sformato di Agnello e Puré di Patate
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  CHOCOLATE_CAKE:
+    name: Torta al Cioccolato
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  SWEETENED_PEAR_CHEESECAKE:
+    name: '&6Torta di Pera Dolce'
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  BLUEBERRY_PANCAKES:
+    name: Pancake ai Mirtilli
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CARROT_CAKE:
+    name: Torta alla Carota
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  TOMATO_SOUP:
+    name: '&4Zuppa di Pomodoro'
+    lore:
+    - ''
+    - '&7&o+&b&o5.5 &7&oFame'
+  TIRAMISU_WITH_STRAWBERRIES:
+    name: Tiramisu con Fragole
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  SWEET_POTATO_PIE:
+    name: Crostata di Patate Dolci
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  APPLE_PEAR_CAKE:
+    name: '&cTorta di Mela e Pera'
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  CHEESECAKE:
+    name: Cheesecake
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  BLT:
+    name: Panino con Bacon, Lattuga e Pomodoro
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  SANDWICH:
+    name: Panino
+    lore:
+    - ''
+    - '&7&o+&b&o9.5 &7&oFame'
+  TIRAMISU:
+    name: Tiramisu
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  RASPBERRY_JELLY_SANDWICH:
+    name: '&dPanino con Marmellata di Lamponi'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  BAGEL:
+    name: Bagel
+    lore:
+    - ''
+    - '&7&o+&b&o2.0 &7&oFame'
+  HOT_DOG:
+    name: Hot Dog
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  GRAPE_PIE:
+    name: '&cCrostata di Uva'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CHOCOLATE_STRAWBERRY:
+    name: '&cCiocolato e Fragole'
+    lore:
+    - ''
+    - '&7&o+&b&o2.5 &7&oFame'
+  DRAGON_FRUIT_PIE:
+    name: '&dCrostata di Frutto del Drago'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  FISH_SANDWICH:
+    name: Panino con Pesce
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  CLUB_SANDWICH:
+    name: Panino Triplo
+    lore:
+    - ''
+    - '&7&o+&b&o9.5 &7&oFame'
+  JAMMY_DODGER:
+    name: '&cBiscotto con Marmellata'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  COWBERRY_JELLY_SANDWICH:
+    name: '&cPaninio con Marmellata di Mirtillo Rosso'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  FRIES:
+    name: Patatine Fritte
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  PLUM_PIE:
+    name: '&5Crostata di Prugne'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BACON_CHEESEBURGER:
+    name: Cheeseburger con Bacon
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  PUMPKIN_CHEESECAKE:
+    name: '&6Cheesecake alla Zucca'
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  BISCUITS_GRAVY:
+    name: Biscotti con Salsa Gravy
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BOSTON_CREAM_PIE:
+    name: Crostata alla Crema di Boston
+    lore:
+    - ''
+    - '&7&o+&b&o4.5 &7&oFame'
+  BLUEBERRY_CHEESECAKE:
+    name: '&9Crostata di Mirtilli'
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  SWEET_POPCORN:
+    name: Popcorn &7(Dolce)
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  BLUEBERRY_JELLY_SANDWICH:
+    name: '&9Panino con Marmellata di Mirtilli'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  PEACH_PIE:
+    name: '&5Crostata di Pesca'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CHICKEN_BURGER:
+    name: Chickenburger
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  COWBERRY_PIE:
+    name: '&cCrostata di Mirtillo Rosso'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CHOCOLATE_PEAR_CAKE:
+    name: Torta di Cioccolato e Pera
+    lore:
+    - ''
+    - '&7&o+&b&o9.5 &7&oFame'
+  STUFFED_RED_BELL_PEPPER:
+    name: '&cPeperoni Rossi Ripieni'
+    lore:
+    - ''
+    - '&7&o+&b&o7.0 &7&oFame'
+  LEMON_PIE:
+    name: '&eCrostata al Limone'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  COCONUT_CHICKEN_CURRY:
+    name: Pollo al Curry con Cocco
+    lore:
+    - ''
+    - '&7&o+&b&o9.5 &7&oFame'
+  GARLIC_BREAD:
+    name: Bruschetta all'Aglio
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  CHICKEN_CHEESEBURGER:
+    name: Chicken Cheeseburger
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  POMEGRANATE_PIE:
+    name: '&4Crostata di Melograno'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  STRAWBERRY_PIE:
+    name: '&4Crostata di Fragole'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  WAFFLES:
+    name: Waffles
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  PEAR_PIE:
+    name: '&aCrostata di Pera'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BISCUIT:
+    name: '&6Biscotto'
+    lore:
+    - ''
+    - '&7&o+&b&o2.0 &7&oFame'
+  CHOCOLATE_BAR:
+    name: Barretta di Cioccolato
+    lore:
+    - ''
+    - '&7&o+&b&o1.5 &7&oFame'
+  PUMPKIN_MUFFIN:
+    name: '&6Muffin di Zucca'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CHEESEBURGER:
+    name: Cheeseburger
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CREAMED_CORN:
+    name: Mais alla Crema
+    lore:
+    - ''
+    - '&7&o+&b&o4.0 &7&oFame'
+  CHICKEN_CURRY:
+    name: Pollo al Curry
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  BBQ_DOUBLE_BACON_WRAPPED_HOT_DOG_IN_A_TORTILLA_WITH_CHEESE:
+    name: Hot Dog BBQ Doppio Bacon e Tortilla con Formaggio
+    lore:
+    - '&7&o"Quando cucino io" - @thegamer69'
+    - ''
+    - '&7&o+&b&o10.0 &7&oFame'
+  CORN_ON_THE_COB:
+    name: '&6Pannocchia di Mais'
+    lore:
+    - ''
+    - '&7&o+&b&o4.5 &7&oFame'
+  TACO:
+    name: Taco
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  BURRITO:
+    name: Burrito
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  GRAPE_SALAD:
+    name: '&cInsalata di Uva'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  DELUXE_CHEESEBURGER:
+    name: Deluxe Cheeseburger
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  OAK_APPLE_PIE:
+    name: '&cCrostata di Mela'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BACON_BURGER:
+    name: Bacon Burger
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  CHICKEN_BURRITO:
+    name: Chicken Burrito
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  PAVLOVA:
+    name: Pavlova
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  STRAWBERRY_JELLY_SANDWICH:
+    name: '&4Panino con Marmellata di Fragole'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  BLUEBERRY_MUFFIN:
+    name: '&9Muffin di Mirtilli'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  ORANGE_PIE:
+    name: '&6Crostata di Arancia'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  CHICKEN_POT_PIE:
+    name: Pasticcio di Pollo in Crosta
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  BLACKBERRY_JELLY_SANDWICH:
+    name: '&8Panino con Marmellata di Mirtilli Neri'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  PUMPKIN_BREAD:
+    name: '&6Pane di Zucca  '
+    lore:
+    - ''
+    - '&7&o+&b&o4.0 &7&oFame'
+  CRANBERRY_JELLY_SANDWICH:
+    name: '&cPanino con Marmellata di Ossicocco'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  LIME_PIE:
+    name: '&aCrostata di Lime'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BLUEBERRY_PIE:
+    name: '&9Crostata di Mirtilli'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  ELDERBERRY_PIE:
+    name: '&cCrostata di Sambuco'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BACON_WRAPPED_CHEESE_FILLED_HOT_DOG:
+    name: '&6Hot Dog con Bacon e Formaggio'
+    lore:
+    - '&7&o"Quando cucino io" - @thegamer69'
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  TIRAMISU_WITH_RASPBERRIES:
+    name: Tiramisu con Lamponi
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  SALTY_POPCORN:
+    name: Popcorn &7(Salato)
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  STRAWBERRY_SALAD:
+    name: '&cInsalata di Fragole'
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  TIRAMISU_WITH_BLACKBERRIES:
+    name: Tiramisu con Mirtilli Neri
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  FISH_TACO:
+    name: Taco di Pesce
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  CHERRY_CHEESECAKE:
+    name: '&cCheesecake di Ciliegie'
+    lore:
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  CHOCOLATE_CHIP_MUFFIN:
+    name: Muffin con Gocce di Cioccolato
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
+  BBQ_BACON_WRAPPED_HOT_DOG:
+    name: Hot Dog BBQ con Bacon
+    lore:
+    - '&7&o"Quando cucino io" - @thegamer69'
+    - ''
+    - '&7&o+&b&o8.5 &7&oFame'
+  GRAPE_JELLY_SANDWICH:
+    name: '&cPanino con Marmellata di Uva'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  HAMBURGER:
+    name: Hamburger
+    lore:
+    - ''
+    - '&7&o+&b&o5.0 &7&oFame'
+  BACON_SANDWICH:
+    name: '&6Panino con Bacon'
+    lore:
+    - ''
+    - '&7&o+&b&o9.5 &7&oFame'
+  STREET_TACO:
+    name: '&6Street Taco'
+    lore:
+    - ''
+    - '&7&o+&b&o9.0 &7&oFame'
+  CHICKEN_SANDWICH:
+    name: '&6Panino con Pollo'
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  GRILLED_SANDWICH:
+    name: '&6Panino Grigliato'
+    lore:
+    - ''
+    - '&7&o+&b&o6.0 &7&oFame'
+  ICE_CREAM:
+    name: '&bGelato'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  ELDERBERRY_JELLY_SANDWICH:
+    name: '&cPanino con Marmellata di Sambuco'
+    lore:
+    - ''
+    - '&7&o+&b&o- '
+    - '&7&o+&b&o6.0 &7&oFame'
+  CRANBERRY_PIE:
+    name: '&cCrostata di Ossicocco'
+    lore:
+    - ''
+    - '&7&o+&b&o6.5 &7&oFame'
