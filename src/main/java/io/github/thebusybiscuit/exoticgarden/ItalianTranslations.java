@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -23,6 +24,8 @@ import java.util.logging.Level;
 
 /** Applies Italian item names from editable YAML files in the plugin data folder. */
 final class ItalianTranslations {
+
+    private static final Field ITEM_STACK_TEMPLATE = itemStackTemplateField();
 
     private static final List<String> FILES = Arrays.asList(
         "drinks.yml", "food.yml", "magical_crops.yml", "misc.yml", "plants_and_fruits.yml"
@@ -40,7 +43,7 @@ final class ItalianTranslations {
         int applied = 0;
         for (Map.Entry<String, Translation> entry : translations.entrySet()) {
             SlimefunItem slimefunItem = SlimefunItem.getById(entry.getKey());
-            if (slimefunItem != null && translate(slimefunItem.getItem(), entry.getValue())) {
+            if (slimefunItem != null && translate(slimefunItem, entry.getValue())) {
                 applied++;
             }
         }
@@ -86,8 +89,15 @@ final class ItalianTranslations {
         return value;
     }
 
-    private static boolean translate(ItemStack item, Translation translation) {
-        if (item == null || translation.name == null) {
+    private static boolean translate(SlimefunItem slimefunItem, Translation translation) {
+        if (translation.name == null) {
+            return false;
+        }
+
+        ItemStack item;
+        try {
+            item = (ItemStack) ITEM_STACK_TEMPLATE.get(slimefunItem);
+        } catch (IllegalAccessException ex) {
             return false;
         }
 
@@ -106,6 +116,16 @@ final class ItalianTranslations {
         }
         item.setItemMeta(meta);
         return true;
+    }
+
+    private static Field itemStackTemplateField() {
+        try {
+            Field field = SlimefunItem.class.getDeclaredField("itemStackTemplate");
+            field.setAccessible(true);
+            return field;
+        } catch (ReflectiveOperationException ex) {
+            throw new ExceptionInInitializerError(ex);
+        }
     }
 
     private static final class Translation {
