@@ -94,13 +94,20 @@ final class ItalianTranslations {
             return false;
         }
 
-        ItemStack item;
+        ItemStack item = new ItemStack(slimefunItem.getItem());
         try {
-            item = (ItemStack) ITEM_STACK_TEMPLATE.get(slimefunItem);
+            if (!translate(item, translation)) {
+                return false;
+            }
+            ITEM_STACK_TEMPLATE.set(slimefunItem, item);
         } catch (IllegalAccessException ex) {
             return false;
         }
 
+        return true;
+    }
+
+    private static boolean translate(ItemStack item, Translation translation) {
         ItemMeta meta = item.getItemMeta();
         if (meta == null) {
             return false;
